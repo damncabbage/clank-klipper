@@ -1,2 +1,8 @@
+# Python Virtualenv
 /env
+
+# Auto-backups
+/printer-[0-9]*_[0-9]*.cfg
+
+# Don't wanna add to this pile now we're using git for this
 /old-configs
