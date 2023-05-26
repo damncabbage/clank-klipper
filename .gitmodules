@@ -1,3 +1,6 @@
 [submodule "repo"]
 	path = repo
 	url = https://github.com/damncabbage/klipper.git
+[submodule "extras/led_effect"]
+	path = extras/led_effect
+	url = https://github.com/julianschill/klipper-led_effect
