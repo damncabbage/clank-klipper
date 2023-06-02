@@ -1,0 +1,12 @@
+[Unit]
+Description=Button detection for Klipper restarts
+After=network-online.target klipper.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=octoprint
+ExecStart=/home/octoprint/klipper/scripts/restart-buttons.sh
+
+[Install]
+WantedBy=multi-user.target

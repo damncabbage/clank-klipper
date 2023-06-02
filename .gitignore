@@ -6,3 +6,6 @@
 
 # Don't wanna add to this pile now we're using git for this
 /old-configs
+
+# Current printer-state variables
+/config/saved_vars.cfg
