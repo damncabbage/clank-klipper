@@ -4,3 +4,6 @@
 [submodule "extras/led_effect"]
 	path = extras/led_effect
 	url = https://github.com/julianschill/klipper-led_effect
+[submodule "config/klipper-macros"]
+	path = config/klipper-macros
+	url = https://github.com/jschuh/klipper-macros
